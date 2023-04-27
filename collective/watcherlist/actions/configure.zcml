@@ -28,7 +28,7 @@
       title="Add or remove a user from the watchers list."
       description="Add or remove a user from the watchers list."
       for="*"
-      event="zope.component.interfaces.IObjectEvent"
+      event="zope.interface.interfaces.IObjectEvent"
       addview="collective.watcherlist.actions.Watching"
       editview="edit"
       schema=".watching.IWatchingAction"
